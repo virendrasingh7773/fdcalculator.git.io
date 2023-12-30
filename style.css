@@ -1,0 +1,37 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    border-bottom: 1px solid green;
+    font-weight: bolder;
+}
+h6{
+    color: black;
+
+}
+b{
+    text-align: right;
+    color: black;
+    font-weight: bolder;
+}
+input{
+    width: 50%;
+    background-color: #EAF9F4;
+    border: 0;
+    outline: 0;
+    text-align: right;
+    color: green;
+    padding-right: 5%;
+    font-weight: bolder;
+}
+#range1 , #range2 , #range3{
+    width: -webkit-fill-available;
+    margin: 0.5rem 0rem;
+    padding-right: 0%;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
